@@ -82,8 +82,6 @@ header.fixed #logo {
     width: 100%;
     background: center;
     background-image: url('css/images/backgrounds/background1.jpg');
-    background-blend-mode: multiply;
-    background-color: #444444;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -155,8 +153,6 @@ header.fixed #logo {
     padding-bottom: 5%;
     background: center;
     background-image: url('css/images/backgrounds/background2.jpg');
-    background-blend-mode: multiply;
-    background-color: #444444;
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
