@@ -81,7 +81,7 @@ header.fixed #logo {
 #top {
     width: 100%;
     background: center;
-    background-image: url('images/backgrounds/background1.jpg');
+    background-image: url('css/images/backgrounds/background1.jpg');
     background-blend-mode: multiply;
     background-color: #444444;
     background-size: cover;
@@ -154,7 +154,7 @@ header.fixed #logo {
     padding-top: 5%;
     padding-bottom: 5%;
     background: center;
-    background-image: url('images/backgrounds/background2.jpg');
+    background-image: url('css/images/backgrounds/background2.jpg');
     background-blend-mode: multiply;
     background-color: #444444;
     background-size: cover;
