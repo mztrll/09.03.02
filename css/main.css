@@ -1,0 +1,309 @@
+/*Шрифт Kanit*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Шрифт Roboto Condensed*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*Шрифт Sono*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Шапка сайта */
+
+header {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    position: fixed;
+    text-align: center;
+}
+
+header #logo {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+header #logo span {
+    font-size: 3em;
+    line-height: 45px;
+    margin-left: 40px;
+}
+
+#about {
+    font-size: 1.3em;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.row div{
+    padding-top: 2%;
+}
+
+#about > div > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#about > div > a:hover {
+    color: #b0b0b0;
+    text-decoration: underline;
+}
+
+/* Стили для фиксированной шапки */
+
+.fixed {
+    z-index: 5000;
+    background-color: #fff;
+    border-bottom: 1px solid silver;
+}
+
+header.fixed #logo {
+  color: #586ff5;
+}
+
+.fixed #about a {color: #343434}
+.fixed #about a:hover {color: #7c7c7c}
+
+/* Главный блок на сайте */
+
+#top {
+    width: 100%;
+    background: center;
+    background-image: url('images/backgrounds/background1.jpg');
+    background-blend-mode: multiply;
+    background-color: #444444;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 2000px) and (min-width: 1001px) {
+    #top {
+      font-size: 3em;
+      padding-top: 10%;
+      height: 1000px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+    #top {
+        font-size: 2em;
+        padding-top: 40%;
+        height: 1000px;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 351px) {
+    #top {
+        font-size: 1.3em;
+        padding-top: 80%;
+        height: 800px;
+    }
+}
+
+@media (max-width: 350px) {
+    #top {
+        font-size: 0.1em;
+        padding-top: 100%;
+        height: 700px;
+    }
+}
+
+#top h1 {
+    padding-top: 20%;
+}
+
+/* Краткие сведения о программе */
+
+#main {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+}
+
+#main h2 {
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#main p {
+    padding: 0 2% 2% 2%;
+    font-size: 1.3em;
+}
+
+/* Прохождение практики */
+
+#practice {
+    margin: 0;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: center;
+    background-image: url('images/backgrounds/background2.jpg');
+    background-blend-mode: multiply;
+    background-color: #444444;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#practice h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#practice img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    #img {
+      width: 30%;
+      height: 30%;
+    }
+}
+
+/* Кем работают */
+
+#jobs {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    text-align: center;
+}
+
+#jobs h2 {
+    padding-bottom: 5%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#jobs div {
+    padding: 2%;
+    border: 2px solid silver;
+    background-color: #256aaa;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+    color: #f6f6f6;
+}
+
+#jobs div:hover {
+    background-color: #143aaa;
+}
+
+/* Наши выпускники */
+
+#graduates {
+    margin: 0;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: center;
+    background-image: url('images/backgrounds/background2.jpg');
+    background-blend-mode: multiply;
+    background-color: #444444;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#graduates h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#graduates img {
+    padding: 5%;
+    width: 100%;
+    height: 90%;
+}
+
+#graduates span {
+    font-size: 1.3em;
+}
+
+/* Заявка */
+#application {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  #application  h5 {font-size: 3em; color: #4f4f4f}
+  
+  #form_input {
+    margin-top: 15px;
+    font-size: 1.1em;
+  }
+  
+  #form_input label {
+    color: #505050;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  #form_input label > span {
+    color: #7eace8;
+  }
+  
+  #form_input input,#form_input textarea {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: #4a4a4a;
+  }
+  
+  #form_input input:focus, #form_input textarea:focus {
+    border-color: #333;
+  }
+
+  button{
+    text-align: center;
+  }
+
+  /* Контакты */
+
+  #contacts {
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
+    text-align: center;
+  }
+
+  #contacts a {
+    color: black;
+    text-decoration: none; 
+  }
+
+  #contacts a:hover {
+    text-decoration: underline; 
+  }
