@@ -85,8 +85,8 @@ header.fixed #logo {
     background-blend-mode: multiply;
     background-color: #444444;
     background-size: cover;
-    text-align: center;
     color: #fff;
+    background-attachment: fixed;
 }
 
 @media (max-width: 2000px) and (min-width: 1001px) {
