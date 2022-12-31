@@ -87,6 +87,7 @@ header.fixed #logo {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    text-align: center;
 }
 
 @media (max-width: 2000px) and (min-width: 1001px) {
